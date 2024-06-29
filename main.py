@@ -9,22 +9,22 @@ i = 1
 
 while i<300:
     print("\033[1;34m"f"进入第{i}次操作")
-    tt1 = pyautogui.locateOnScreen('D:/35281/Pictures/1/tt1.png', confidence=0.8)
+    tt1 = pyautogui.locateOnScreen('1/tt1.png', confidence=0.8)
     if tt1 is not None:
         x, y = pyautogui.center(tt1)
         pyautogui.leftClick(x+400, y)
         print("\033[1;32m""点击")
         time.sleep(1)
 
-    p0 = pyautogui.locateOnScreen('D:/35281/Pictures/1/p0.png', confidence=0.8)
+    p0 = pyautogui.locateOnScreen('1/p0.png', confidence=0.8)
     if p0 is not None:
         x, y = pyautogui.center(p0)
         pyautogui.leftClick(x, y)
         time.sleep(1)
 
-    p1 = pyautogui.locateOnScreen('D:/35281/Pictures/1/p1.png', confidence=0.8)
-    p2 = pyautogui.locateOnScreen('D:/35281/Pictures/1/p2.png', confidence=0.8)
-    p3 = pyautogui.locateOnScreen('D:/35281/Pictures/1/p3.png', confidence=0.8)
+    p1 = pyautogui.locateOnScreen('1/p1.png', confidence=0.8)
+    p2 = pyautogui.locateOnScreen('1/p2.png', confidence=0.8)
+    p3 = pyautogui.locateOnScreen('1/p3.png', confidence=0.8)
     if p1 is not None:
         b = 1
         print("\033[1;32m""识别到轻装")
@@ -35,14 +35,14 @@ while i<300:
         b = 3
         print("\033[1;32m""识别到神秘")
 
-    x1 = pyautogui.locateOnScreen('D:/35281/Pictures/1/x1.png', confidence=0.8)
+    x1 = pyautogui.locateOnScreen('1/x1.png', confidence=0.8)
     if x1 is not None:
         x, y = pyautogui.center(x1)
         pyautogui.leftClick(x, y)
         print("\033[1;32m""点击x")
         time.sleep(1)
 
-    t22 = pyautogui.locateOnScreen('D:/35281/Pictures/1/t22.png', confidence=0.8)
+    t22 = pyautogui.locateOnScreen('1/t22.png', confidence=0.8)
     if t22 is not None:
         x, y = pyautogui.center(t22)
         pyautogui.leftClick(x, y)
@@ -50,10 +50,10 @@ while i<300:
         time.sleep(3)
 
 
-    r4 = pyautogui.locateOnScreen('D:/35281/Pictures/1/4.png', confidence=0.8)
-    r44 = pyautogui.locateOnScreen('D:/35281/Pictures/1/44.png', confidence=0.8)
-    pp1 = pyautogui.locateOnScreen('D:/35281/Pictures/1/pp1.png', confidence=0.8)
-    pp2 = pyautogui.locateOnScreen('D:/35281/Pictures/1/pp2.png', confidence=0.8)
+    r4 = pyautogui.locateOnScreen('1/4.png', confidence=0.8)
+    r44 = pyautogui.locateOnScreen('1/44.png', confidence=0.8)
+    pp1 = pyautogui.locateOnScreen('1/pp1.png', confidence=0.8)
+    pp2 = pyautogui.locateOnScreen('1/pp2.png', confidence=0.8)
     if r4 is not None:
         x, y = pyautogui.center(r4)
         pyautogui.leftClick(x, y)
@@ -75,8 +75,8 @@ while i<300:
         time.sleep(60)
         k = 0
         while k<1:
-            r444 = pyautogui.locateOnScreen('D:/35281/Pictures/1/444.png', confidence=0.8)
-            r4444 = pyautogui.locateOnScreen('D:/35281/Pictures/1/4444.png', confidence=0.8)
+            r444 = pyautogui.locateOnScreen('1/444.png', confidence=0.8)
+            r4444 = pyautogui.locateOnScreen('1/4444.png', confidence=0.8)
             #c = 0
             if r444 is not None:
                 x, y = pyautogui.center(r444)
@@ -100,7 +100,7 @@ while i<300:
     else:
         print("\033[1;31m"'未发现4&44，结算和战斗')
 
-    t3 = pyautogui.locateOnScreen('D:/35281/Pictures/1/t3.png', confidence=0.8)
+    t3 = pyautogui.locateOnScreen('1/t3.png', confidence=0.8)
     if t3 is not None:
         x, y = pyautogui.center(t3)
         pyautogui.leftClick(x, y)
